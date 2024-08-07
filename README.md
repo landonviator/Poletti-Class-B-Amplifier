@@ -7,8 +7,8 @@
 [![Share](https://img.shields.io/badge/share-0088CC?logo=patreon&logoColor=white)](https://www.patreon.com/ViatorDSP)
 
 ## Table of Contents
-- [About](#-about)
-- [Technical Details](#-technical-details)
+- [About](#about)
+- [Technical Details](#technical-details)
 - [How to Build](#-how-to-build)
 - [Documentation](#-documentation)
 - [Feedback and Contributions](#-feedback-and-contributions)
