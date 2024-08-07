@@ -33,3 +33,11 @@ specific needs, including drive, mix, and output level.
 ## Technical Details
 Will Pirkle describes the signal flow of the Poletti amp with the following diagram:
 ![Signal-Flow](https://github.com/landonviator/Poletti-Class-B-Amplifier/blob/main/assets/signalFlow.png)
+```mermaid
+graph TD
+    A[Start] --> B{Decision}
+    B -->|Yes| C[Do Something]
+    B -->|No| D[Do Something Else]
+    C --> E[End]
+    D --> E[End]
+```
