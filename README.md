@@ -8,8 +8,8 @@
 
 ## Table of Contents
 - [About](#-about)
-- [Technical Details](#technical-details)
-- [How to Use](#how-to-use)
+- [Technical Details](#-technical-details)
+- [How to Use](#-how-to-use)
 - [Feedback and Contributions](#-feedback-and-contributions)
 - [License](#license)
 - [Support](#support)
