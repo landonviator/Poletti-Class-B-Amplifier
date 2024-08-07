@@ -49,10 +49,4 @@ graph TD;
     sum1 --> output((output))
 ```
 The waveshaper is described by the following piece-wise function:
-$$
-y(n) =
-\begin{cases}
-\frac{kx(n)}{1 - \frac{kx(n)}{L_n}} & \text{if } x(n) \leq 0 \\
-\frac{kx(n)}{1 + \frac{kx(n)}{L_p}} & \text{if } x(n) > 0
-\end{cases}
-$$
+$y(n)$
