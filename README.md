@@ -7,14 +7,14 @@
 [![Share](https://img.shields.io/badge/share-0088CC?logo=patreon&logoColor=white)](https://www.patreon.com/ViatorDSP)
 
 ## Table of Contents
-- [About](#-about)
-- [Technical Details](#-technical-details)
+- [About](#about)
+- [Technical Details](#technical-details)
 - [How to Use](#-how-to-use)
-- [Feedback and Contributions](#-feedback-and-contributions)
+- [Feedback and Contributions](#feedback-and-contributions)
 - [License](#license)
 - [Support](#support)
 
-## 🚀 About
+## About
 This project is a custom DSP JUCE module that implements the Poletti Class-B Amplifier, as described 
 by Will Pirkle in Chapter 19 of his Tube Amp Modeling Addendum. This module provides an authentic 
 emulation of the vintage amplifier design, offering rich harmonic characteristics and dynamic response.
@@ -29,7 +29,7 @@ sound design.
 - Customizable Parameters: Allows users to adjust various parameters to tailor the sound to their 
 specific needs, including drive, mix, and output level.
 
-## 🖥️ Technical Details
+## Technical Details
 Will Pirkle illustrates the signal flow of the Poletti amplifier with the following diagram:
 ```mermaid
 graph TD;
@@ -107,7 +107,7 @@ You should also update the parameters in the `processBlock()` before calling `pr
 see here I don't have any automatable parameters, I just used the `JUCE_LIVE_CONSTANT` macro to quickly
 test parameter updates.
 
-## 🔈 Feedback and Contributions
+## Feedback and Contributions
 If you're interested in contributing to the plugin's development, that's fantastic! Start by exploring 
 the issues page. If you encounter no existing bugs and wish to introduce new features, fine-tune the DSP, 
 or propose any other enhancements, feel free to submit a pull request (PR), which will be reviewed promptly.
