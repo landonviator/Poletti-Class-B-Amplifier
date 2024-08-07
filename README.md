@@ -58,7 +58,7 @@ Here, `lp` and `ln` are the positive and negative limit values specified in Pirk
 experimented with these parameters to closely replicate the waveform produced by Pirkle's original 
 implementation.
 
-## 🔨 How to Use
+## How to Use
 This repo is a Juce module, so if you're using the Projucer, you can include this repo in the `Modules` 
 tab in Projucer. Go to Modules -> click the "plus" to add -> select "Add a module from a specified folder" 
 -> then navigate to path\to\repo\Poletti-Class-B-Amplifier.
