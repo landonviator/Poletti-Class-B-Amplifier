@@ -31,7 +31,7 @@ sound design.
 specific needs, including drive, mix, and output level.
 
 ## Technical Details
-Will Pirkle describes the signal flow of the Poletti amp with the following diagram:
+Will Pirkle illustrates the signal flow of the Poletti amplifier with the following diagram:
 ```mermaid
 graph TD;
     input((input)) --> pos[Positive Asymmetrical Waveshaper]
@@ -55,4 +55,7 @@ if (xn <= 0.0)
 else
   yn = numerator / (1.0f + (numerator / lp));
   ```
+Here, `lp` and `ln` are the positive and negative limit values specified in Pirkle's paper. I've 
+experimented with these parameters to closely replicate the waveform produced by Pirkle's original 
+implementation.
 
