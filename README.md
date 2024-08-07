@@ -8,7 +8,7 @@
 
 ## Table of Contents
 - [About](#-about)
-- [Certification](#-certification)
+- [Technical Details](#-technical-details)
 - [How to Build](#-how-to-build)
 - [Documentation](#-documentation)
 - [Feedback and Contributions](#-feedback-and-contributions)
@@ -16,3 +16,20 @@
 - [Contacts](#%EF%B8%8F-contacts)
 
 ## 🚀 About
+This project is a custom DSP JUCE module that implements the Poletti Class-B Amplifier, as described 
+by Will Pirkle in Chapter 19 of his Tube Amp Modeling Addendum. This module provides an authentic 
+emulation of the vintage amplifier design, offering rich harmonic characteristics and dynamic response.
+
+Key Features
+- Accurate Emulation: Faithfully reproduces the nonlinear behavior of the Poletti Class-B amplifier, 
+capturing its distinct tonal qualities.
+
+- Versatile Applications: Suitable for a wide range of audio processing tasks, from music production to 
+sound design.
+
+- Customizable Parameters: Allows users to adjust various parameters to tailor the sound to their 
+specific needs, including drive, mix, and output level.
+
+## Technical Details
+Will Pirkle describes the signal flow of the Poletti amp with the following diagram:
+![Signal-Flow](https://github.com/landonviator/Poletti-Class-B-Amplifier/blob/main/assets/signalFlow.png)
