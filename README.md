@@ -32,12 +32,32 @@ specific needs, including drive, mix, and output level.
 
 ## Technical Details
 Will Pirkle describes the signal flow of the Poletti amp with the following diagram:
-![Signal-Flow](https://github.com/landonviator/Poletti-Class-B-Amplifier/blob/main/assets/signalFlow.png)
 ```mermaid
 graph TD
-    A[Start] --> B{Decision}
-    B -->|Yes| C[Do Something]
-    B -->|No| D[Do Something Else]
-    C --> E[End]
-    D --> E[End]
+    input((input)) --> pos[Positive (+)<br>Asymmetrical<br>Waveshaper]
+    input((input)) --> neg[Negative (-)<br>Asymmetrical<br>Waveshaper]
+    
+    pos --> hpf1[HPF]
+    neg --> hpf2[HPF]
+    
+    hpf1 --> sym1[Symmetrical<br>Waveshaper]
+    hpf2 --> sym2[Symmetrical<br>Waveshaper]
+    
+    sym1 --> sum1((Σ))
+    sym2 --> sum1((Σ))
+    
+    sum1 --> sum2((Σ))
+    
+    sum2 --> output((output))
+
+    style pos fill:#f9f,stroke:#333,stroke-width:2px
+    style neg fill:#f9f,stroke:#333,stroke-width:2px
+    style hpf1 fill:#bbf,stroke:#333,stroke-width:2px
+    style hpf2 fill:#bbf,stroke:#333,stroke-width:2px
+    style sym1 fill:#afa,stroke:#333,stroke-width:2px
+    style sym2 fill:#afa,stroke:#333,stroke-width:2px
+    style sum1 fill:#ffa,stroke:#333,stroke-width:2px
+    style sum2 fill:#ffa,stroke:#333,stroke-width:2px
+    style input fill:#fff,stroke:#333,stroke-width:2px
+    style output fill:#fff,stroke:#333,stroke-width:2px
 ```
