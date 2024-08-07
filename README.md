@@ -11,8 +11,8 @@
 - [Technical Details](#technical-details)
 - [How to Use](#how-to-use)
 - [Feedback and Contributions](#-feedback-and-contributions)
-- [License](#-license)
-- [Contacts](#%EF%B8%8F-contacts)
+- [License](#license)
+- [Support](#support)
 
 ## 🚀 About
 This project is a custom DSP JUCE module that implements the Poletti Class-B Amplifier, as described 
@@ -106,3 +106,18 @@ void PolettiAudioProcessor::processBlock (juce::AudioBuffer<float>& buffer, juce
 You should also update the parameters in the `processBlock()` before calling `processBuffer()`. You can
 see here I don't have any automatable parameters, I just used the `JUCE_LIVE_CONSTANT` macro to quickly
 test parameter updates.
+
+## 🔈 Feedback and Contributions
+If you're interested in contributing to the plugin's development, that's fantastic! Start by exploring 
+the issues page. If you encounter no existing bugs and wish to introduce new features, fine-tune the DSP, 
+or propose any other enhancements, feel free to submit a pull request (PR), which will be reviewed promptly.
+
+## License
+This open-source project is distributed under the [GNU](https://www.gnu.org/licenses/gpl-3.0.en.html) license. The GNU General Public License is a free, copyleft license for
+software and other kinds of works.
+
+## Support
+If you like my work and would like to support me creating more audio applications, check out my 
+[Patreon](https://www.patreon.com/ViatorDSP) where you can donate and download all of my current plugins! 
+I also have a [GumRoad](https://viatordsp.gumroad.com/?_gl=1*18tqfoy*_ga*MTg2MjcxNDgyNS4xNjg5OTI3NDE3*_ga_6LJN6D94N6*MTY5MjM5NjQ1Ni4xODguMS4xNjkyMzk2NTExLjAuMC4w) 
+store with my most recent plugins.
